@@ -6,12 +6,13 @@ diabetes_model = pickle.load(open('diabetes_model.sav' , 'rb'))
 
 # Judul Halaman
 st.title('Cek Prediksi Diabetes')
+st.text_input ('Model by: Mario - 10217035')
 
 # Kolom Form
 col1, col2 = st.columns(2)
 
 with col1 :
-  Pregnancies = st.text_input ('input nilai Pregnancies')
+  Pregnancies = st.text_input ('Masukan nilai Pregnancies')
 
 with col2 :
   Glucose = st.text_input ('Masukan data Glukosa')
