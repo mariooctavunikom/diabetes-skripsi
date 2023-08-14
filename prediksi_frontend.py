@@ -6,7 +6,7 @@ diabetes_model = pickle.load(open('diabetes_model.sav' , 'rb'))
 
 # Judul Halaman
 st.title('Cek Prediksi Diabetes')
-st.text_input ('Model by: Mario - 10217035')
+st.text ('Model by: Mario - 10217035')
 
 # Kolom Form
 col1, col2 = st.columns(2)
